@@ -4,4 +4,4 @@ RUN mkdir /var/angry-caching-proxy
 
 EXPOSE 8080
 
-CMD /usr/bin/angry-caching-proxy --directory /var/angry-caching-proxy
+CMD /usr/bin/angry-caching-proxy --directory /var/angry-caching-proxy -p 8080
